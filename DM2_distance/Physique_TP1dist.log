@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.9)  22 NOV 2016 19:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.9)  23 NOV 2016 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -682,35 +682,35 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <DM2_fig3.png, id=9, 585.68813pt x 386.19281pt>
 File: DM2_fig3.png Graphic file (type png)
  <use DM2_fig3.png>
-Package pdftex.def Info: DM2_fig3.png used on input line 35.
+Package pdftex.def Info: DM2_fig3.png used on input line 23.
 (pdftex.def)             Requested size: 557.38951pt x 367.57053pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
 <DM2_fig2.png, id=10, 222.8325pt x 163.61125pt>
 File: DM2_fig2.png Graphic file (type png)
  <use DM2_fig2.png>
-Package pdftex.def Info: DM2_fig2.png used on input line 41.
+Package pdftex.def Info: DM2_fig2.png used on input line 40.
 (pdftex.def)             Requested size: 150.56305pt x 110.55016pt.
  [2 <./DM2_fig3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
 <DM2_Q5.jpg, id=22, 642.4pt x 481.8pt>
 File: DM2_Q5.jpg Graphic file (type jpg)
  <use DM2_Q5.jpg>
-Package pdftex.def Info: DM2_Q5.jpg used on input line 50.
+Package pdftex.def Info: DM2_Q5.jpg used on input line 49.
 (pdftex.def)             Requested size: 301.1261pt x 225.85054pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--58
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--67
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
 
  []
 
@@ -718,26 +718,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--67
 <hello.png, id=27, 810.77907pt x 485.56406pt>
 File: hello.png Graphic file (type png)
  <use hello.png>
-Package pdftex.def Info: hello.png used on input line 69.
+Package pdftex.def Info: hello.png used on input line 68.
 (pdftex.def)             Requested size: 557.38951pt x 333.81705pt.
 
 <bonjour.png, id=28, 833.36343pt x 485.56406pt>
 File: bonjour.png Graphic file (type png)
  <use bonjour.png>
-Package pdftex.def Info: bonjour.png used on input line 80.
+Package pdftex.def Info: bonjour.png used on input line 79.
 (pdftex.def)             Requested size: 557.38951pt x 324.77795pt.
  [4 <./hello.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 93--96
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
 
  []
 
 <enveloppe.png, id=34, 811.53188pt x 486.31688pt>
 File: enveloppe.png Graphic file (type png)
  <use enveloppe.png>
-Package pdftex.def Info: enveloppe.png used on input line 98.
+Package pdftex.def Info: enveloppe.png used on input line 97.
 (pdftex.def)             Requested size: 557.38951pt x 334.03036pt.
 
-Overfull \hbox (29.99756pt too wide) in paragraph at lines 97--99
+Overfull \hbox (29.99756pt too wide) in paragraph at lines 96--98
 [] 
  []
 
@@ -745,58 +745,144 @@ Overfull \hbox (29.99756pt too wide) in paragraph at lines 97--99
 File: synchrone.png Graphic file (type png)
 
 <use synchrone.png>
-Package pdftex.def Info: synchrone.png used on input line 100.
+Package pdftex.def Info: synchrone.png used on input line 99.
 (pdftex.def)             Requested size: 557.38951pt x 333.91164pt.
 
-Overfull \hbox (29.99756pt too wide) in paragraph at lines 99--101
+Overfull \hbox (29.99756pt too wide) in paragraph at lines 98--100
 [] 
  []
 
 [6 <./enveloppe.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
+<carre_enveloppe_05.png, id=42, 817.55438pt x 501.37312pt>
+File: carre_enveloppe_05.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+<use carre_enveloppe_05.png>
+Package pdftex.def Info: carre_enveloppe_05.png used on input line 109.
+(pdftex.def)             Requested size: 557.38951pt x 341.8396pt.
+ [7 <./synchrone.png>]
+<triangle_enveloppe_05.png, id=47, 814.54312pt x 487.06969pt>
+File: triangle_enveloppe_05.png Graphic file (type png)
+
+<use triangle_enveloppe_05.png>
+Package pdftex.def Info: triangle_enveloppe_05.png used on input line 112.
+(pdftex.def)             Requested size: 557.38951pt x 333.3137pt.
+ [8 <./carre_enveloppe_05.png>]
+<carre_enveloppe_01.png, id=51, 808.52063pt x 480.29437pt>
+File: carre_enveloppe_01.png Graphic file (type png)
+
+<use carre_enveloppe_01.png>
+Package pdftex.def Info: carre_enveloppe_01.png used on input line 117.
+(pdftex.def)             Requested size: 557.38951pt x 331.11765pt.
+
+Overfull \hbox (9.9976pt too wide) in paragraph at lines 116--118
+[]\T1/cmr/m/n/10 h ! 
+ []
+
+[9 <./triangle_enveloppe_05.png>]
+<triangle_enveloppe_01.png, id=55, 809.27344pt x 486.31688pt>
+File: triangle_enveloppe_01.png Graphic file (type png)
+
+<use triangle_enveloppe_01.png>
+Package pdftex.def Info: triangle_enveloppe_01.png used on input line 120.
+(pdftex.def)             Requested size: 557.38951pt x 334.95793pt.
+
+Overfull \hbox (9.9976pt too wide) in paragraph at lines 119--121
+[]\T1/cmr/m/n/10 h ! 
+ []
+
+[10 <./carre_enveloppe_01.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
+<carre_synchrone_05.png, id=59, 816.80156pt x 484.81125pt>
+File: carre_synchrone_05.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+<use carre_synchrone_05.png>
+Package pdftex.def Info: carre_synchrone_05.png used on input line 129.
+(pdftex.def)             Requested size: 557.38951pt x 330.8509pt.
 
+Overfull \hbox (9.9976pt too wide) in paragraph at lines 128--130
+[]\T1/cmr/m/n/10 h ! 
  []
 
+[11 <./triangle_enveloppe_01.png>]
+<triangle_synchrone_05.png, id=63, 815.29594pt x 490.83376pt>
+File: triangle_synchrone_05.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+<use triangle_synchrone_05.png>
+Package pdftex.def Info: triangle_synchrone_05.png used on input line 132.
+(pdftex.def)             Requested size: 557.38951pt x 335.58249pt.
 
+Overfull \hbox (9.9976pt too wide) in paragraph at lines 131--133
+[]\T1/cmr/m/n/10 h ! 
  []
 
-[7 <./synchrone.png>] (./Physique_TP1dist.aux) ) 
+[12 <./carre_synchrone_05.png>]
+<carre_synchrone_01.png, id=67, 815.29594pt x 486.31688pt>
+File: carre_synchrone_01.png Graphic file (type png)
+
+<use carre_synchrone_01.png>
+Package pdftex.def Info: carre_synchrone_01.png used on input line 137.
+(pdftex.def)             Requested size: 557.38951pt x 332.49431pt.
+
+Overfull \hbox (9.9976pt too wide) in paragraph at lines 136--138
+[]\T1/cmr/m/n/10 h ! 
+ []
+
+[13 <./triangle_synchrone_05.png>]
+<triangle_synchrone_01.png, id=72, 809.27344pt x 487.06969pt>
+File: triangle_synchrone_01.png Graphic file (type png)
+
+<use triangle_synchrone_01.png>
+Package pdftex.def Info: triangle_synchrone_01.png used on input line 140.
+(pdftex.def)             Requested size: 557.38951pt x 335.47644pt.
+
+Overfull \hbox (9.9976pt too wide) in paragraph at lines 139--141
+[]\T1/cmr/m/n/10 h ! 
+ []
+
+[14 <./carre_synchrone_01.png>] <question8.jpg, id=76, 481.8pt x 642.4pt>
+File: question8.jpg Graphic file (type jpg)
+
+<use question8.jpg>
+Package pdftex.def Info: question8.jpg used on input line 152.
+(pdftex.def)             Requested size: 301.1316pt x 401.50146pt.
+ [15 <./triangle_synchrone_01.png>]
+<question9.jpg, id=80, 642.4pt x 481.8pt>
+File: question9.jpg Graphic file (type jpg)
+ <use question9.jpg>
+Package pdftex.def Info: question9.jpg used on input line 155.
+(pdftex.def)             Requested size: 501.87683pt x 376.42001pt.
+ [16 <./question8.jpg>] [17 <./question9.jpg>] (./Physique_TP1dist.aux) ) 
 Here is how much of TeX's memory you used:
- 5624 strings out of 494883
- 78583 string characters out of 6178693
+ 5676 strings out of 494883
+ 79866 string characters out of 6178693
  149789 words of memory out of 5000000
- 8827 multiletter control sequences out of 15000+600000
+ 8869 multiletter control sequences out of 15000+600000
  14598 words of font info for 46 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,6n,38p,438b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvi
-ps/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfrm1728.pfb>
-Output written on Physique_TP1dist.pdf (7 pages, 401975 bytes).
+ 38i,6n,38p,444b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/
+share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
+Output written on Physique_TP1dist.pdf (17 pages, 850191 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -20,7 +20,7 @@ TP1 : Mesures fréquentielles en modulation d'amplitude à double bande latéral
 \end{center}}
 
 \paragraph{Question 1} : \\
-%\includegraphics[scale=•]{•}
+\includegraphics[width=\textwidth]{DM2_fig3.png}
 Nous observons bien trois raies sur le spectre donné sur la figure 1:
 \begin{itemize}
 \item une raie centrale d'amplitude $A_{1}=25$mV
@@ -32,7 +32,6 @@ Le taux de modulation m est donnée par la relation :
 m=\frac{V_{max}-V{min}}{V_{max}+V{min}}=\frac{A_{2}-A_{1}}{A_{2}+A_{1}}=0.61
 \end{equation*}
 \paragraph{Question 3} : \\
-\includegraphics[width=\textwidth]{DM2_fig3.png}
 Les fréquences des ondes sont visibles sur la figure 1 donnée à la question 1. \\
 L'onde porteuse possède une fréquence $f_{p} = 130.8$kHz.  \\
 Les raies latérales ont pour fréquences $f_{1}=129,8$kHz et $f_{2}=131.8$kHz.
@@ -67,7 +66,7 @@ Les amplitudes $A_{m}$ et $A_{p}$ des signaux $f_{m}$ et $f_{p}$ sont respective
 
 \paragraph{Question 3} : \\
 \includegraphics[width=\textwidth]{hello.png}
-La fréquence $f_{p}$ de la porteuse est de 1kHz. 
+La fréquence $f_{p}$ de la porteuse est de 237kHz. Ce résultat semble cohérent car la fréquence de la porteuse doit être très importante pour réaliser la modulation. 
 
 
 \paragraph{Question 4} : \\
@@ -83,10 +82,10 @@ On mesure les amplitudes de l'enveloppe et du message qui sont respectivement de
 Ainsi, on trouve \textbf{m=0.57}.
 
 \paragraph{Question 3} : \\
-La fréquence $f_{p}$ de la porteuse est de 1kHz (obtenue avec les mêmes méthodes que précédemment).
+La fréquence $f_{p}$ de la porteuse est de 117kHz (obtenue avec les mêmes méthodes que précédemment).
 \paragraph{Question 4} : \\
 L'amplitude crête à crête $V_{env}$ du signal démodulé est de 342 mV.\\
-Sa fréquence $f_{m}$ est de 0.94kHz environ.
+Sa fréquence $f_{m}$ est de 1kHz.
 \paragraph{Question 5} : \\
 Maintenant, l'amplitude crête à crête $V_{syn}$ du signal démodulé est de 133mV.\\
 Sa fréquence $f_{m}$ est de 1kHz.
@@ -94,22 +93,67 @@ Sa fréquence $f_{m}$ est de 1kHz.
 On passe désormais en surmodulation (m>1). \\
 Distinguons les deux situations suivantes : \\
 \begin{itemize}
-\item détecteur d'enveloppe :  \\
+\item \textbf{6.1} détecteur d'enveloppe :  \\
 \includegraphics[width=\textwidth]{enveloppe.png}
-\item démodulation synchrone : \\
+\item \textbf{6.2} démodulation synchrone : \\
 \includegraphics[width=\textwidth]{synchrone.png}
 \end{itemize}
+\textbf{
+6.3 Conclusion }: On remarque que la démodulation par détection d'enveloppe déforme le message, tandis que la démodulation synchrone restitue correctement le message une fois ce dernier démodulé. \\ Nous pouvons ainsi supposer que la démodulation par détection d'enveloppe ne fonctionne pas pour des taux de modulation m>1, contrairement à la détection synchrone qui semble marcher pour tout m. 
 
 \paragraph{Question 7} : \\
-Considérons tout d'abord le cas d'un
+
+\textbf{CAS DU DEMODULATEUR A DETECTEUR D ENVELOPPE} \\
+Considérons tout d'abord le cas d'une amplitude du message à 0.5V : 
 \subparagraph{Pour un message carré} : \\
+\includegraphics[width=\textwidth]{carre_enveloppe_05.png}
 
 \subparagraph{Pour un message triangulaire} : \\
+\includegraphics[width=\textwidth]{triangle_enveloppe_05.png}
 
+Considérons à présent le cas d'une amplitude du message à 0.1V
+
+\subparagraph{Pour un message carré} : \\
+\includegraphics[width=\textwidth]{carre_enveloppe_01.png}{h!}
+
+\subparagraph{Pour un message triangulaire} : \\
+\includegraphics[width=\textwidth]{triangle_enveloppe_01.png}{h!}
+
+
+
+\textbf{CAS DU DEMODULATEUR SYNCHRONE :}\\
+
+
+Considérons tout d'abord le cas d'une amplitude du message à 0.5V : 
+\subparagraph{Pour un message carré} : \\
+\includegraphics[width=\textwidth]{carre_synchrone_05.png}{h!}
+
+\subparagraph{Pour un message triangulaire} : \\
+\includegraphics[width=\textwidth]{triangle_synchrone_05.png}{h!}
+
+Considérons à présent le cas d'une amplitude du message à 0.1V
+
+\subparagraph{Pour un message carré} : \\
+\includegraphics[width=\textwidth]{carre_synchrone_01.png}{h!}
+
+\subparagraph{Pour un message triangulaire} : \\
+\includegraphics[width=\textwidth]{triangle_synchrone_01.png}{h!}
+
+\subparagraph{Conclusion} : \\
+Nous remarquons que le signal est correctement démodulé dans le cas d'une démodulation par détection d'enveloppe lorsque : 
+\begin{itemize}
+\item le signal est carré et m quelconque
+\item le signal est triangulaire ou sinusoïdal et m inférieur à 1.
+\end{itemize}
+Nous remarquons que le signal est correctement démodulé dans le cas d'une démodulation synchrone dans tous les cas. 
+
+On notera tout de même dans le cas de la démodulation par détection d'enveloppe comme dans la démodulation synchrone que si l'on effectuait une FFT du signal, les pics de plus hautes fréquences seraient moins bien restitués. En effet, dans le cas du signal triangulaire et carrée, les "pentes brusques" des signaux ne sont pas parfaitement retransmises.
 \paragraph{Question 8} : \\
-
+\includegraphics[height=400px]{question8.jpg}\\
+Il s'agit d'un amplificateur permettant la technique de compensation fréquentielle et une protection contre les court-circuits, une faible consommation électrique et d'accepter un grand domaine de tension. 
 \paragraph{Question 9} : \\
-
+\includegraphics[width=500px]{question9.jpg}\\
+Il s'agit d'un microcontrôleur permettant de réaliser de la modulation, démodulation (suppression de la porteuse), détection synchrone, détection FM et de détection de phase. 
 
 
 \end{document}
