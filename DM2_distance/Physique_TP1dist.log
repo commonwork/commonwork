@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.9)  23 NOV 2016 18:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.11.9)  24 NOV 2016 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -540,54 +540,49 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen125
-\captionmargin@=\dimen126
-\captionwidth=\dimen127
-\caption@tempdima=\dimen128
-\caption@indent=\dimen129
-\caption@parindent=\dimen130
-\caption@hangindent=\dimen131
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen125
+\WF@size=\dimen126
+\c@WF@wrappedlines=\count138
+\WF@box=\box28
+\WF@everypar=\toks24
+Package: wrapfig 2003/01/31  v 3.6
 )
-\c@ContinuedFloat=\count138
+(/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
 )
 (./Physique_TP1dist.aux)
 \openout1 = `Physique_TP1dist.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Info: Redefining \degres on input line 14.
-LaTeX Info: Redefining \dots on input line 14.
-LaTeX Info: Redefining \up on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Info: Redefining \degres on input line 15.
+LaTeX Info: Redefining \dots on input line 15.
+LaTeX Info: Redefining \up on input line 15.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count139
-\scratchdimen=\dimen132
-\scratchbox=\box28
+\scratchdimen=\dimen127
+\scratchbox=\box29
 \nofMPsegments=\count140
 \nofMParguments=\count141
-\everyMPshowfont=\toks24
+\everyMPshowfont=\toks25
 \MPscratchCnt=\count142
-\MPscratchDim=\dimen133
+\MPscratchDim=\dimen128
 \MPnumerator=\count143
 \makeMPintoPDFobject=\count144
-\everyMPtoPDFconversion=\toks25
+\everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -666,13 +661,11 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -682,207 +675,173 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <DM2_fig3.png, id=9, 585.68813pt x 386.19281pt>
 File: DM2_fig3.png Graphic file (type png)
  <use DM2_fig3.png>
-Package pdftex.def Info: DM2_fig3.png used on input line 23.
+Package pdftex.def Info: DM2_fig3.png used on input line 25.
 (pdftex.def)             Requested size: 557.38951pt x 367.57053pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
 
 <DM2_fig2.png, id=10, 222.8325pt x 163.61125pt>
 File: DM2_fig2.png Graphic file (type png)
  <use DM2_fig2.png>
-Package pdftex.def Info: DM2_fig2.png used on input line 40.
+Package pdftex.def Info: DM2_fig2.png used on input line 45.
 (pdftex.def)             Requested size: 150.56305pt x 110.55016pt.
- [2 <./DM2_fig3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-<DM2_Q5.jpg, id=22, 642.4pt x 481.8pt>
+ [2 <./DM2_fig3.png>] <DM2_Q5.jpg, id=23, 642.4pt x 481.8pt>
 File: DM2_Q5.jpg Graphic file (type jpg)
  <use DM2_Q5.jpg>
-Package pdftex.def Info: DM2_Q5.jpg used on input line 49.
+Package pdftex.def Info: DM2_Q5.jpg used on input line 57.
 (pdftex.def)             Requested size: 301.1261pt x 225.85054pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
+Underfull \hbox (badness 10000) in paragraph at lines 64--67
 
  []
 
 [3 <./DM2_fig2.png> <./DM2_Q5.jpg>]
-<hello.png, id=27, 810.77907pt x 485.56406pt>
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+
+ []
+
+<hello.png, id=28, 810.77907pt x 485.56406pt>
 File: hello.png Graphic file (type png)
  <use hello.png>
-Package pdftex.def Info: hello.png used on input line 68.
+Package pdftex.def Info: hello.png used on input line 79.
 (pdftex.def)             Requested size: 557.38951pt x 333.81705pt.
-
-<bonjour.png, id=28, 833.36343pt x 485.56406pt>
+ [4 <./hello.png>] <bonjour.png, id=34, 833.36343pt x 485.56406pt>
 File: bonjour.png Graphic file (type png)
  <use bonjour.png>
-Package pdftex.def Info: bonjour.png used on input line 79.
+Package pdftex.def Info: bonjour.png used on input line 93.
 (pdftex.def)             Requested size: 557.38951pt x 324.77795pt.
- [4 <./hello.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 92--95
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--111
 
  []
 
-<enveloppe.png, id=34, 811.53188pt x 486.31688pt>
+[5 <./bonjour.png>] <enveloppe.png, id=38, 811.53188pt x 486.31688pt>
 File: enveloppe.png Graphic file (type png)
- <use enveloppe.png>
-Package pdftex.def Info: enveloppe.png used on input line 97.
+
+<use enveloppe.png>
+Package pdftex.def Info: enveloppe.png used on input line 114.
 (pdftex.def)             Requested size: 557.38951pt x 334.03036pt.
-
-Overfull \hbox (29.99756pt too wide) in paragraph at lines 96--98
-[] 
- []
-
-[5 <./bonjour.png>] <synchrone.png, id=38, 805.50937pt x 482.55281pt>
+ [6 <./enveloppe.png>]
+<synchrone.png, id=42, 805.50937pt x 482.55281pt>
 File: synchrone.png Graphic file (type png)
-
-<use synchrone.png>
-Package pdftex.def Info: synchrone.png used on input line 99.
+ <use synchrone.png>
+Package pdftex.def Info: synchrone.png used on input line 120.
 (pdftex.def)             Requested size: 557.38951pt x 333.91164pt.
-
-Overfull \hbox (29.99756pt too wide) in paragraph at lines 98--100
-[] 
- []
-
-[6 <./enveloppe.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+ [7 <./synchrone.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-<carre_enveloppe_05.png, id=42, 817.55438pt x 501.37312pt>
+<carre_enveloppe_05.png, id=47, 817.55438pt x 501.37312pt>
 File: carre_enveloppe_05.png Graphic file (type png)
 
 <use carre_enveloppe_05.png>
-Package pdftex.def Info: carre_enveloppe_05.png used on input line 109.
+Package pdftex.def Info: carre_enveloppe_05.png used on input line 134.
 (pdftex.def)             Requested size: 557.38951pt x 341.8396pt.
- [7 <./synchrone.png>]
-<triangle_enveloppe_05.png, id=47, 814.54312pt x 487.06969pt>
+ [8 <./carre_enveloppe_05.png>]
+<triangle_enveloppe_05.png, id=51, 814.54312pt x 487.06969pt>
 File: triangle_enveloppe_05.png Graphic file (type png)
 
 <use triangle_enveloppe_05.png>
-Package pdftex.def Info: triangle_enveloppe_05.png used on input line 112.
+Package pdftex.def Info: triangle_enveloppe_05.png used on input line 141.
 (pdftex.def)             Requested size: 557.38951pt x 333.3137pt.
- [8 <./carre_enveloppe_05.png>]
-<carre_enveloppe_01.png, id=51, 808.52063pt x 480.29437pt>
+ [9 <./triangle_enveloppe_05.png>]
+<carre_enveloppe_01.png, id=55, 808.52063pt x 480.29437pt>
 File: carre_enveloppe_01.png Graphic file (type png)
 
 <use carre_enveloppe_01.png>
-Package pdftex.def Info: carre_enveloppe_01.png used on input line 117.
+Package pdftex.def Info: carre_enveloppe_01.png used on input line 149.
 (pdftex.def)             Requested size: 557.38951pt x 331.11765pt.
 
-Overfull \hbox (9.9976pt too wide) in paragraph at lines 116--118
-[]\T1/cmr/m/n/10 h ! 
- []
-
-[9 <./triangle_enveloppe_05.png>]
-<triangle_enveloppe_01.png, id=55, 809.27344pt x 486.31688pt>
-File: triangle_enveloppe_01.png Graphic file (type png)
-
-<use triangle_enveloppe_01.png>
-Package pdftex.def Info: triangle_enveloppe_01.png used on input line 120.
-(pdftex.def)             Requested size: 557.38951pt x 334.95793pt.
-
-Overfull \hbox (9.9976pt too wide) in paragraph at lines 119--121
-[]\T1/cmr/m/n/10 h ! 
+Overfull \hbox (15.5518pt too wide) in paragraph at lines 149--150
+[][]\T1/cmr/m/n/10 [h !] 
  []
 
 [10 <./carre_enveloppe_01.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+<enveloppe_01_triangle.png, id=59, 821.31844pt x 467.49657pt>
+File: enveloppe_01_triangle.png Graphic file (type png)
+
+<use enveloppe_01_triangle.png>
+Package pdftex.def Info: enveloppe_01_triangle.png used on input line 156.
+(pdftex.def)             Requested size: 557.38951pt x 317.26572pt.
+
+Overfull \hbox (9.9976pt too wide) in paragraph at lines 156--157
+[][]\T1/cmr/m/n/10 h ! 
+ []
+
+[11 <./enveloppe_01_triangle.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
-<carre_synchrone_05.png, id=59, 816.80156pt x 484.81125pt>
+<carre_synchrone_05.png, id=63, 816.80156pt x 484.81125pt>
 File: carre_synchrone_05.png Graphic file (type png)
 
 <use carre_synchrone_05.png>
-Package pdftex.def Info: carre_synchrone_05.png used on input line 129.
+Package pdftex.def Info: carre_synchrone_05.png used on input line 167.
 (pdftex.def)             Requested size: 557.38951pt x 330.8509pt.
-
-Overfull \hbox (9.9976pt too wide) in paragraph at lines 128--130
-[]\T1/cmr/m/n/10 h ! 
- []
-
-[11 <./triangle_enveloppe_01.png>]
-<triangle_synchrone_05.png, id=63, 815.29594pt x 490.83376pt>
+ [12 <./carre_synchrone_05.png>]
+<triangle_synchrone_05.png, id=67, 815.29594pt x 490.83376pt>
 File: triangle_synchrone_05.png Graphic file (type png)
 
 <use triangle_synchrone_05.png>
-Package pdftex.def Info: triangle_synchrone_05.png used on input line 132.
+Package pdftex.def Info: triangle_synchrone_05.png used on input line 173.
 (pdftex.def)             Requested size: 557.38951pt x 335.58249pt.
-
-Overfull \hbox (9.9976pt too wide) in paragraph at lines 131--133
-[]\T1/cmr/m/n/10 h ! 
- []
-
-[12 <./carre_synchrone_05.png>]
-<carre_synchrone_01.png, id=67, 815.29594pt x 486.31688pt>
+ [13 <./triangle_synchrone_05.png>]
+<carre_synchrone_01.png, id=72, 815.29594pt x 486.31688pt>
 File: carre_synchrone_01.png Graphic file (type png)
 
 <use carre_synchrone_01.png>
-Package pdftex.def Info: carre_synchrone_01.png used on input line 137.
+Package pdftex.def Info: carre_synchrone_01.png used on input line 181.
 (pdftex.def)             Requested size: 557.38951pt x 332.49431pt.
-
-Overfull \hbox (9.9976pt too wide) in paragraph at lines 136--138
-[]\T1/cmr/m/n/10 h ! 
- []
-
-[13 <./triangle_synchrone_05.png>]
-<triangle_synchrone_01.png, id=72, 809.27344pt x 487.06969pt>
+ [14 <./carre_synchrone_01.png>]
+<triangle_synchrone_01.png, id=76, 809.27344pt x 487.06969pt>
 File: triangle_synchrone_01.png Graphic file (type png)
 
 <use triangle_synchrone_01.png>
-Package pdftex.def Info: triangle_synchrone_01.png used on input line 140.
+Package pdftex.def Info: triangle_synchrone_01.png used on input line 187.
 (pdftex.def)             Requested size: 557.38951pt x 335.47644pt.
+ [15 <./triangle_synchrone_01.png>]
+<question8.jpg, id=80, 481.8pt x 642.4pt>
+File: question8.jpg Graphic file (type jpg)
+ <use question8.jpg>
+Package pdftex.def Info: question8.jpg used on input line 202.
+(pdftex.def)             Requested size: 301.1316pt x 401.50146pt.
 
-Overfull \hbox (9.9976pt too wide) in paragraph at lines 139--141
-[]\T1/cmr/m/n/10 h ! 
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
  []
 
-[14 <./carre_synchrone_01.png>] <question8.jpg, id=76, 481.8pt x 642.4pt>
-File: question8.jpg Graphic file (type jpg)
-
-<use question8.jpg>
-Package pdftex.def Info: question8.jpg used on input line 152.
-(pdftex.def)             Requested size: 301.1316pt x 401.50146pt.
- [15 <./triangle_synchrone_01.png>]
-<question9.jpg, id=80, 642.4pt x 481.8pt>
+[16 <./question8.jpg>] <question9.jpg, id=84, 642.4pt x 481.8pt>
 File: question9.jpg Graphic file (type jpg)
- <use question9.jpg>
-Package pdftex.def Info: question9.jpg used on input line 155.
+
+<use question9.jpg>
+Package pdftex.def Info: question9.jpg used on input line 210.
 (pdftex.def)             Requested size: 501.87683pt x 376.42001pt.
- [16 <./question8.jpg>] [17 <./question9.jpg>] (./Physique_TP1dist.aux) ) 
+ [17 <./question9.jpg>] (./Physique_TP1dist.aux) ) 
 Here is how much of TeX's memory you used:
- 5676 strings out of 494883
- 79866 string characters out of 6178693
- 149789 words of memory out of 5000000
- 8869 multiletter control sequences out of 15000+600000
- 14598 words of font info for 46 fonts, out of 8000000 for 9000
+ 4706 strings out of 494883
+ 61936 string characters out of 6178693
+ 131085 words of memory out of 5000000
+ 7897 multiletter control sequences out of 15000+600000
+ 15271 words of font info for 47 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,6n,38p,444b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/
-share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
-.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/tex
-mf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/publi
-c/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.
-pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on Physique_TP1dist.pdf (17 pages, 850191 bytes).
+ 38i,7n,30p,444b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/d
+vips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfrm1728.pfb>
+Output written on Physique_TP1dist.pdf (17 pages, 862639 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 77 compressed objects within 1 object stream
+ 131 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

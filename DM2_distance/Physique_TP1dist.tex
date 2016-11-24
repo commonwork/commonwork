@@ -7,7 +7,8 @@
 \usepackage[top=2cm, bottom=2cm, left=1cm, right=1cm]{geometry}
 \usepackage{color}
 \usepackage{amsmath,amsfonts,amssymb}
-\usepackage{caption}
+\usepackage{wrapfig}
+\usepackage{parskip}
 
 \title{Mesures à distances \\ Devoir Maison 2}
 \author{PIPERAU Yohan \\ BELLA Jean-Paul}
@@ -20,7 +21,10 @@ TP1 : Mesures fréquentielles en modulation d'amplitude à double bande latéral
 \end{center}}
 
 \paragraph{Question 1} : \\
-\includegraphics[width=\textwidth]{DM2_fig3.png}
+\begin{figure}[!h]
+	\includegraphics[width=\textwidth]{DM2_fig3.png}
+	\caption{Analyse spectrale du signal démodulé}
+\end{figure}
 Nous observons bien trois raies sur le spectre donné sur la figure 1:
 \begin{itemize}
 \item une raie centrale d'amplitude $A_{1}=25$mV
@@ -36,18 +40,24 @@ Les fréquences des ondes sont visibles sur la figure 1 donnée à la question 1
 L'onde porteuse possède une fréquence $f_{p} = 130.8$kHz.  \\
 Les raies latérales ont pour fréquences $f_{1}=129,8$kHz et $f_{2}=131.8$kHz.
 \paragraph{Question 4} : \\
+\begin{figure}[!h]
 \begin{center}
  \includegraphics[width=150px]{DM2_fig2.png}
+ \caption{Forme de l'analyse spectrale attendue}
  \end{center} 
+ \end{figure}
 Comme on le voit sur la figure 2, nous pouvons remonter à la fréquence $f_{m}$ du message.
 $f_{1}=f_{p}-f_{m}$ et $f_{3}=f_{p}+f_{m}$, d'où :
 \begin{equation*}
 f_{m}=\frac{f_{3}-f_{1}}{2}=1kHz
 \end{equation*}
 \paragraph{Question 5} : \\
+\begin{figure}[!h]
 \begin{center}
 \includegraphics[width=300px]{DM2_Q5.jpg} 
+\caption{Microcontrôleur MC1496PG}
 \end{center}
+\end{figure}
 Le nom du circuit lisible sur la 1ère ligne de caractères est : MC1496PG. \\
 C’est un microcontrôleur qui envoie en sortie une tension égale au produit d’une tension d’entrée et d’une fonction de switching.
 
@@ -65,7 +75,10 @@ On mesure l’amplitude de l’onde en mesurant l’amplitude crête à crête e
 Les amplitudes $A_{m}$ et $A_{p}$ des signaux $f_{m}$ et $f_{p}$ sont respectivement 858mV et 1.75V.\\
 
 \paragraph{Question 3} : \\
+\begin{figure}[!h]
 \includegraphics[width=\textwidth]{hello.png}
+\caption{Démodulation d'amplitude à double bande latérale sur un signal sinusoïdal}
+\end{figure}
 La fréquence $f_{p}$ de la porteuse est de 237kHz. Ce résultat semble cohérent car la fréquence de la porteuse doit être très importante pour réaliser la modulation. 
 
 
@@ -76,7 +89,10 @@ Afin de remonter à la fréquence $f_{m}$ du signal, nous pouvons compter cinq p
 \section*{\begin{center} TP3 : Mesures en démodulation d'amplitude à double bande latérale avec porteuse : DBAP (serveur 4) \end{center}}
 
 \paragraph{Question 2} : \\
+\begin{figure}[!h]
 \includegraphics[width=\textwidth]{bonjour.png}
+\caption{Démodulation par détection d'enveloppe d'un signal sinusoïdal avec m=0.57<1 }
+\end{figure}
 
 On mesure les amplitudes de l'enveloppe et du message qui sont respectivement de $A_{max}=647$mV et de $A_{min}=177$mV. \\
 Ainsi, on trouve \textbf{m=0.57}.
@@ -94,51 +110,83 @@ On passe désormais en surmodulation (m>1). \\
 Distinguons les deux situations suivantes : \\
 \begin{itemize}
 \item \textbf{6.1} détecteur d'enveloppe :  \\
+\begin{figure}[!h]
 \includegraphics[width=\textwidth]{enveloppe.png}
+\caption{Démodulation par détection d'enveloppe d'un signal sinusoïdal dans le cadre de la surmodulation}
+\end{figure}
+\newpage
 \item \textbf{6.2} démodulation synchrone : \\
+\begin{figure}[!h]
 \includegraphics[width=\textwidth]{synchrone.png}
+\caption{Démodulation synchrone d'un signal sinusoïdal dans le cadre de la surmodulation}
+\end{figure}
+
 \end{itemize}
 \textbf{
 6.3 Conclusion }: On remarque que la démodulation par détection d'enveloppe déforme le message, tandis que la démodulation synchrone restitue correctement le message une fois ce dernier démodulé. \\ Nous pouvons ainsi supposer que la démodulation par détection d'enveloppe ne fonctionne pas pour des taux de modulation m>1, contrairement à la détection synchrone qui semble marcher pour tout m. 
-
+\newpage
 \paragraph{Question 7} : \\
 
 \textbf{CAS DU DEMODULATEUR A DETECTEUR D ENVELOPPE} \\
 Considérons tout d'abord le cas d'une amplitude du message à 0.5V : 
 \subparagraph{Pour un message carré} : \\
+\begin{figure}[!h]
 \includegraphics[width=\textwidth]{carre_enveloppe_05.png}
+\caption{Démodulation d'un message carré par détection d'enveloppe (m>1)}
+\end{figure}
 
+\newpage
 \subparagraph{Pour un message triangulaire} : \\
+\begin{figure}[!h]
 \includegraphics[width=\textwidth]{triangle_enveloppe_05.png}
+\caption{Démodulation d'un message triangulaire par détection d'enveloppe(m>1)}
+\end{figure}
 
 Considérons à présent le cas d'une amplitude du message à 0.1V
-
+\newpage
 \subparagraph{Pour un message carré} : \\
-\includegraphics[width=\textwidth]{carre_enveloppe_01.png}{h!}
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{carre_enveloppe_01.png}[h!]
+\caption{Démodulation d'un message carré par détection d'enveloppe(m<1)}
+\end{figure}
 
+\newpage
 \subparagraph{Pour un message triangulaire} : \\
-\includegraphics[width=\textwidth]{triangle_enveloppe_01.png}{h!}
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{enveloppe_01_triangle.png}{h!}
+\caption{Démodulation d'un message triangle par détection d'enveloppe(m<1)}
+\end{figure}
 
-
-
+\newpage
 \textbf{CAS DU DEMODULATEUR SYNCHRONE :}\\
 
 
 Considérons tout d'abord le cas d'une amplitude du message à 0.5V : 
 \subparagraph{Pour un message carré} : \\
-\includegraphics[width=\textwidth]{carre_synchrone_05.png}{h!}
-
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{carre_synchrone_05.png}
+\caption{Démodulation d'un message carré par détection synchrone(m>1)}
+\end{figure}
+\newpage
 \subparagraph{Pour un message triangulaire} : \\
-\includegraphics[width=\textwidth]{triangle_synchrone_05.png}{h!}
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{triangle_synchrone_05.png}
+\caption{Démodulation d'un message triangulaire par détection synchrone(m>1)}
+\end{figure}
 
 Considérons à présent le cas d'une amplitude du message à 0.1V
-
+\newpage
 \subparagraph{Pour un message carré} : \\
-\includegraphics[width=\textwidth]{carre_synchrone_01.png}{h!}
-
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{carre_synchrone_01.png}
+\caption{Démodulation d'un message carré par détection synchrone(m<1)}
+\end{figure}
+\newpage
 \subparagraph{Pour un message triangulaire} : \\
-\includegraphics[width=\textwidth]{triangle_synchrone_01.png}{h!}
-
+\begin{figure}[!h]
+\includegraphics[width=\textwidth]{triangle_synchrone_01.png}
+\caption{Démodulation d'un message triangulaire par détection synchrone(m<1)}
+\end{figure}
 \subparagraph{Conclusion} : \\
 Nous remarquons que le signal est correctement démodulé dans le cas d'une démodulation par détection d'enveloppe lorsque : 
 \begin{itemize}
@@ -148,12 +196,20 @@ Nous remarquons que le signal est correctement démodulé dans le cas d'une dém
 Nous remarquons que le signal est correctement démodulé dans le cas d'une démodulation synchrone dans tous les cas. 
 
 On notera tout de même dans le cas de la démodulation par détection d'enveloppe comme dans la démodulation synchrone que si l'on effectuait une FFT du signal, les pics de plus hautes fréquences seraient moins bien restitués. En effet, dans le cas du signal triangulaire et carrée, les "pentes brusques" des signaux ne sont pas parfaitement retransmises.
+\newpage
 \paragraph{Question 8} : \\
+\begin{figure}[!h]
 \includegraphics[height=400px]{question8.jpg}\\
-Il s'agit d'un amplificateur permettant la technique de compensation fréquentielle et une protection contre les court-circuits, une faible consommation électrique et d'accepter un grand domaine de tension. 
-\paragraph{Question 9} : \\
-\includegraphics[width=500px]{question9.jpg}\\
-Il s'agit d'un microcontrôleur permettant de réaliser de la modulation, démodulation (suppression de la porteuse), détection synchrone, détection FM et de détection de phase. 
+\caption{Amplificateur LM1458N}
+\end{figure}
+\paragraph{Il s'agit d'un amplificateur permettant la technique de compensation fréquentielle et une protection contre les court-circuits, une faible consommation électrique et d'accepter un grand domaine de tension. }
 
+\newpage
+\paragraph{Question 9} : \\
+\begin{figure}[!h]
+\includegraphics[width=500px]{question9.jpg}
+\caption{Micrcontrôleur MC1496PG}
+\end{figure}
+\paragraph{Il s'agit d'un microcontrôleur permettant de réaliser de la modulation, démodulation (suppression de la porteuse), détection synchrone, détection FM et de détection de phase. }
 
 \end{document}
